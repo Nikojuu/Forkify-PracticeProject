@@ -4,7 +4,7 @@ Recipe application with custom recipe uploads.
 
 Live demo: https://forkify-niko.netlify.app/
 
-there is over 1,000,000 Recepies to search from use search terms: 
+#there is over 1,000,000 Recepies to search from use search terms: 
     carrot
     broccoli
     asparagus
