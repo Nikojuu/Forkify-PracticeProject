@@ -115,6 +115,9 @@ const controlAddRecipe = async function (newRecipe) {
 // nice way to add multiple event listeners to handle same function
 // window.addEventListener('hashchange', controlReceipes);
 // window.addEventListener('load', controlReceipes);
+const newFeatuere = function () {
+  console.log('new feature');
+};
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -123,5 +126,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeatuere();
 };
 init();
